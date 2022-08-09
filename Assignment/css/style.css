@@ -1,0 +1,248 @@
+/* default */
+
+:root {
+    --bg-clr: #e6e6e6;
+    --btn_clr: rgb(63, 81, 181);
+    --img_bg_clr: #ececec;
+}
+
+body {
+    background-color: var(--bg-clr) !important;
+    padding: 1rem .7rem;
+    position: relative !important;
+}
+
+
+/* Header Start -----------------------------*/
+
+
+/* .img:hover {
+    transform: scale();
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+} */
+
+.sm_img {
+    width: 10rem;
+    height: 10rem;
+    font-size: 1.1rem;
+    display: grid;
+    place-items: center;
+    background-color: var(--img_bg_clr);
+}
+
+.md_sm__img {
+    width: 15rem;
+    height: 15rem;
+    font-size: 1.5rem;
+    display: grid;
+    place-items: center;
+    background-color: var(--img_bg_clr);
+}
+
+.lg_img {
+    width: 18rem;
+    height: 18rem;
+    font-size: 1.8rem;
+    display: grid;
+    place-items: center;
+    background-color: var(--img_bg_clr);
+}
+
+.extra_md__sm___img {
+    width: 12.5rem;
+    height: 12.5rem;
+    font-size: 1.2rem;
+    display: grid;
+    place-items: center;
+    background-color: var(--img_bg_clr);
+}
+
+.header_details {
+    width: 65% !important;
+    height: 90% !important;
+}
+
+.header_btn {
+    background-color: rgb(63, 81, 181);
+    color: white;
+    padding: .5rem 2.3rem;
+    border: none;
+    border-radius: 30px;
+}
+
+
+/* Header End -------------------------*/
+
+
+/* Main Start -------------------------- */
+
+
+/* Client Details */
+
+.client_div {
+    padding: 2.7rem 0 !important;
+}
+
+.animation_client {
+    width: 90% !important;
+}
+
+.client_bedge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.client_img {
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    font-size: 2.4rem;
+    color: var(--btn_clr);
+}
+
+.client_img img {
+    width: 100%;
+}
+
+.client_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.slider_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 8px;
+}
+
+.slider_items li {
+    list-style: none;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(114, 114, 114);
+    border-radius: 50%;
+}
+
+.slider_dot:nth-child(2) {
+    background-color: black;
+}
+
+
+/* products_beniits */
+
+.products_benefits__div {
+    padding: 6rem 5rem !important;
+}
+
+.product_details {
+    width: 40% !important;
+}
+
+.products_beniits {
+    width: 40% !important;
+    background-color: var(--bg-clr);
+    border-bottom: 8px solid var(--btn_clr);
+    display: grid;
+    place-items: center;
+}
+
+.Benifits_items {
+    list-style: square;
+    font-size: 1.2rem;
+    color: rgb(22, 22, 22);
+}
+
+
+/* main end -------------------------- */
+
+
+/* footer Start -----------------------*/
+
+.contect_form__newsletter {
+    width: 60%;
+    padding: 6rem 2.1rem !important;
+}
+
+.contect_form {
+    gap: 6px;
+}
+
+.contect_form input {
+    width: 100%;
+    height: 2.6rem;
+    border: 2px solid rgb(68, 68, 68);
+    background-color: #fbfbfb;
+    color: black;
+    padding-left: 10px;
+    border-radius: 3px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.contect_form button {
+    width: 100%;
+    height: 2.6rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    outline: none;
+}
+
+
+/* footer End ---------------------------*/
+
+
+/* error box */
+
+.err_box {
+    position: absolute;
+    bottom: 3rem;
+    right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    color: black;
+    padding: 0 !important;
+    font-weight: 600;
+    font-size: 1.2rem;
+    box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+}
+
+.err_box p {
+    padding: 1rem 4rem!important;
+}
+
+.err_row {
+    width: 100%;
+    height: .4rem;
+    animation: anim_row 4s linear;
+    animation-direction: normal;
+}
+
+@keyframes anim_row {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+
+/* error box / */
+
+
+/* Thanqu Code Dekhne kea Liye */
